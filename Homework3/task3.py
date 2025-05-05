@@ -1,3 +1,5 @@
+# Дан список. Найдите сумму элементом с четными индексами
+
 def even_sum(lst):
     sum_list = sum(lst[::2])
     return sum_list
